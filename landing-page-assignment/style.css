@@ -1,3 +1,4 @@
+/***desktop start***/
 body{
     /* max-width: 1920px;
     max-height: 1080px;  */
@@ -13,6 +14,7 @@ body{
     justify-content: flex-start;
     
 }
+/*through the layout logo size haven't change, i set the img size*/
 .main-content{
     background-image: url(../landing-page-assignment/images/bg-image/scooter.svg);
     background-repeat: no-repeat;
@@ -23,10 +25,12 @@ body{
 
 
 }
+/*set background image set a margin bottom to make it close to layout*/
 .contant-a{
     margin: 0 auto;
     width:80%;
 }
+/*use percentage to make it resposive*/
 .firstTitle{
     
     /* margin: 0 auto; */
@@ -56,6 +60,7 @@ body{
     height:500px;
     
 }
+/*make form close to layout*/
 h2{
     font-family: montserrat;
     font-size: 1.2rem;
@@ -73,6 +78,7 @@ textarea,input{
     margin-bottom: 10px;
 
 }
+/**i m not doing right here, it shouldn't be the accurate data**/
 .info{
     margin-top:5px;
 }
@@ -82,6 +88,7 @@ input[type="checkbox"]{
     float:left;
     margin:1px;
 }
+/**i m not doing right here, it shouldn't be the accurate data**/
 button[type="submit"]{
     background-color: #57eeab;
     font-size: 32px;
@@ -107,7 +114,7 @@ footer{
     font-size: 0.5px;
     grid-column: 1fr; 
 }
-
+/**i m not doing right here, it shouldn't be the accurate data**/
 #Hours{
     max-width: 122px;
     height:40px;
@@ -116,6 +123,7 @@ footer{
     max-width: 260px;
     height:40px;
 }
+/*for input size*//**i m not doing right here, it shouldn't be the accurate data**/
 button[type="submit1"]{
     width: 200px;
     height:40px;
@@ -131,9 +139,11 @@ button[type="submit1"]{
     
     /* justify-content: space-between; */
 }
+/**use grid to spilt those two divs and use flex to deal with icons*/
 #icons{
     margin:25px;
 }
+/**tablet mode**/
 @media screen and (max-width:768px) and (min-width:376px){
     body{
         /* width:100%;
@@ -181,7 +191,9 @@ button[type="submit1"]{
         width: 70%;
         border-radius: 3%;
     }
+    /**use percentage here make it responsive**/
 }
+/**mobile mode**/
 @media screen and (max-width:375px){
     body{
         /* width:100%;
