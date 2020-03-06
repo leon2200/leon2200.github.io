@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prototype</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    
+    <header class="head">
+        
+        <div class="site-header">
+            <img src="./image/Untitled-1.png" alt="logo-image" class="logo-2">
+            <h1>SUMI KIRI AIKIDO</h1>
+        </div>
+        <div>
+            <nav role="navigator">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="photo.html">photo</a></li>
+                <li><a href="service.html">service</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <input type="text" placeholder="Search.." class="searchbar">
+            </ul>
+
+
+            </nav>
+        </div>
+    </header>
+    <div >
+        <img src="./image/banner2.png" alt="banner-2"  class="banner-1">
+    </div>
+    <main>
+        
+        <div>
+            <h2>FEEDBACK FORM
+                We need your voice!!</h2>
+        </div>
+        <div>
+            <form action="somePHPPage.php" method="POST" id="htmlForm">
+                <div>
+                    <label for="firstName">First Name:</label>
+                    <input tpye="text" 
+                    name="firstName" 
+                    id="firstName" 
+                    placeholder="James"
+                    required
+                   />
+                </div>
+                <div>
+                    <label for="LastName">Last Name</label>
+                    <input type="text"
+                    name="LastName"
+                    id="LastName"
+                    placeholder="Bond"
+                    required
+                    maxlength="20"
+                   /> 
+                </div>
+                <div>
+                    <label for="message">message:</label>
+                    <textarea name="message" id="message"></textarea>
+                    
+                </div>
+                <div>
+                    <label for="em">E-mail:</label>
+                    <input type="email" name="em" id="em">
+                </div>
+                <div>
+                    <label for="url">URL:</label>
+                    <input type="url" name="url" id="url" value="http://">
+                </div>
+                <div>
+                    <label for="num">Pick a Number:</label>
+                    <input type="number" id="num" id="num" min="-18" max="22" step="2" value="6">
+                </div>
+                
+                   
+                <div>
+                    <button type="submit">submit</button>
+                    <button type="reset">reset</button>
+                </div>
+            </form>    
+        </div>
+    </main>
+    <footer>
+        
+        <h4 class="fc">contact</h4>
+        <p class="fp1">
+            0123456789<br>
+            123@gamail.com<br>
+            find our place
+        </p>
+    
+    
+        <h4 class="fs">service</h4>
+        <p class="fp2">
+            FAQ<br>
+            payment method
+        </p>
+    <div class="icons">
+            <img src="./image/facebook.svg" alt="fi" id="icons">
+            <img src="./image/instagram.svg" alt="ii" id="icons">
+            <img src="./image/linkedin.svg" alt="li" id="icons">
+            <img src="./image/twitter.svg" alt="ti"id="icons">
+    </div>
+</footer>
+</body>
+</html>
