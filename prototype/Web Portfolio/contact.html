@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="contact.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="site-header">
+        
+        <div class="logo">
+            <a href="/Web Portfolio/index.html" class="logo-container"><img src="/Web Portfolio/image/Capture.PNG"  alt="Responsive image" class="logo"></a>
+           
+        </div>
+        <div class="navigation">
+        <nav role="navigation">
+            
+            
+            <ul >
+                <li><a href="/Web Portfolio/home.html">Home</a></li>
+                <li><a href="/Web Portfolio/works.html">works</a></li>
+                <li><a href="/Web Portfolio/contact.html">Contact</a></li>
+            </ul>
+            
+        </nav>
+    
+    </div>
+</header>
+<div class="c-container">
+            
+    <section class="warp-form"> 
+        <h2>contact form</h2>
+        <p>feel free to contact me! Leave your message here</p>
+        <form action="somePHPPage.php" method="POST" id="htmlForm">
+            <div>
+                <label for="firstName">first Name:</label>
+                <input tpye="text" 
+                name="firstName" 
+                id="firstName" 
+                placeholder="James"
+                required
+               />
+            </div>
+            <div>
+                <label for="LastName">Last Name</label>
+                <input type="text"
+                name="LastName"
+                id="LastName"
+                placeholder="Bond"
+                required
+                maxlength="20"
+               /> 
+            </div>
+            <div>
+                <label for="message">message:</label>
+                <textarea name="message" id="message"></textarea>
+                
+            </div>
+            
+            <div>
+                <h3>do you like my website</h3>
+                 <label for="yes">yes
+                    <input type="radio" name="forms" id="yes" checked value="yes">
+                 <div></div>
+                </label> 
+                 
+                 <label for="no">no
+                 <input type="radio" name="forms" id="no" checked value="no">
+                 <div></div>
+                 </label>
+                 
+                 <div>
+                    <label for="Game">what kind of game do you like</label>
+                 </label>
+                 </div>
+                 <select name="favGame" id="favGame">
+                    <optgroup label="Game" multiple>
+                    <option value="ac">action</option>
+                    <option value="sp" selected>sports</option>
+                    <option value="adv">Adventure</option>
+                        
+                    
+                </select>
+            </div>
+            <div>
+                <label for="em">E-mail:</label>
+                <input type="email" name="em" id="em">
+               </div>
+               <div>
+                <label for="url">URL:</label>
+                <input type="url" name="url" id="url" value="http://">
+               </div>
+               <div>
+                <label for="num">Pick a Number:</label>
+                <input type="number" id="num" id="num" min="-18" max="22" step="2" value="6">
+            </div>
+            
+               
+               <div class="btn">
+                <button type="submit">submit</button>
+                <button type="reset">reset</button>
+            </div>
+        </form>    
+
+    </section>
+    <footer>
+        <div >
+            <ul class="nav">
+                <li><a href="/Web Portfolio/home.html">Home</a></li>
+                <li><a href="/Web Portfolio/works.html">works</a></li>
+                <li><a href="/Web Portfolio/contact.html">Contact</a></li>
+                
+            </ul>
+        </div>
+        <div>
+            <ul class="nav-2">
+                <li>find me</li>
+                <li>something else</li>
+            </ul>
+        </div>
+        <div class="icon">
+                <ul class="icon-1">
+                
+                <li><a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                </ul>
+            
+        </div>
+        <div>
+            
+        </div>
+    
+    </footer>
+    
+</body>
+</html>
